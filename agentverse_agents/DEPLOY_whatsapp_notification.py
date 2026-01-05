@@ -26,12 +26,12 @@ protocol = Protocol(spec=chat_protocol_spec)
 claude_client = AsyncAnthropic(api_key=ANTHROPIC_KEY) if ANTHROPIC_KEY else None
 
 MEDICAL_STAFF_CONTACTS = {
-    "cardiologist": "+14082109942",
-    "neurologist": "+9082192446",
-    "trauma_surgeon": "+14082109942",
-    "pediatrician": "+16693409734",
-    "on_call_doctor": "+14082109942",
-    "charge_nurse": "+16693409734"
+    "cardiologist": "+12135550123",
+    "neurologist": "+12135550123",
+    "trauma_surgeon": "+12135550123",
+    "pediatrician": "+12135550123",
+    "on_call_doctor": "+12135550123",
+    "charge_nurse": "+12135550123"
 }
 
 async def get_hospital_data():
